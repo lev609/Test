@@ -188,7 +188,7 @@ void Task5()
                                 if (bor)
                                 {
                                     Arr[Xize] = Arr2[a];
-                                    cout << Arr[Xize];
+                                    cout << Arr[Xize] << " ";
                                     Xize++;
                                     break;
                                 }
@@ -202,7 +202,7 @@ void Task5()
 
 
     }
-
+    cout << endl;
 }
 // Task6
 // Task6
@@ -212,7 +212,7 @@ void Task6()
 {
     int num;
     int sum = 0;
-    cout << "Введите число: ";
+    cout << "Введите число которе хотите умножить: ";
     cin >> num;
 
     for (int i = 1; i <= num; i++)
